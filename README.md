@@ -14,5 +14,5 @@ Um script Python que integra o editor **Kate** com o **Discord Rich Presence**, 
 1. Clone o repositório ou baixe o script:
 
 ```bash
-git clone https://github.com/seu-usuario/kate-discord-presence.git
+git clone https://github.com/MarleyS439/kate-discord-presence.git
 cd kate-discord-presence
