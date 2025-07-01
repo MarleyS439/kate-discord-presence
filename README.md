@@ -1,18 +1,22 @@
 # Kate Discord Presence
 
-Um script Python que integra o editor **Kate** com o **Discord Rich Presence**, exibindo o nome da última sessão editada diretamente no seu status do Discord.
+A Python script that integrates the editor Kate with Discord Rich Presence, displaying the name of the last edited session directly in your Discord status.
 
-## 🔧 Requisitos
+## 🔧 Requeriments
 
-- Python 3.6 ou superior
-- Discord aberto e conectado à sua conta
-- Aplicação registrada no [Discord Developer Portal](https://discord.com/developers/applications)
-- Editor Kate com sessões salvas em `~/.local/share/kate/sessions/`
+- Python 3.6 or higher
+- Discord running and conected to your account
+- A registered application on the [Discord Developer Portal](https://discord.com/developers/applications)
+- Kate Editor with sessions saved in `~/.local/share/kate/sessions/`
 
-## 📦 Instalação
+## 📦 Installation
 
-1. Clone o repositório ou baixe o script:
+1. Clone this repository
 
 ```bash
 git clone https://github.com/MarleyS439/kate-discord-presence.git
 cd kate-discord-presence
+pip install pypresence
+chmod +x main.py
+./main.py
+```
